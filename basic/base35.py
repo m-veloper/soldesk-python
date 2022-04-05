@@ -9,7 +9,7 @@ import pickle
 # f.close()
 
 # try
-f = open('setting.txt', 'wb')
+f = open('../setting.txt', 'wb')
 try:
     setting = [{'title': 'python program'}, {'author': 'sul'}]
     pickle.dump(setting, f)
